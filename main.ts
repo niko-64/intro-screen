@@ -1,0 +1,8 @@
+scene.setBackgroundColor(10)
+effects.confetti.startScreenEffect()
+pause(3000)
+game.setDialogFrame(assets.image`dialogueFrame`)
+game.setDialogTextColor(15)
+game.showLongText("Welcome to your awesome game", DialogLayout.Center)
+effects.confetti.endScreenEffect()
+music.baDing.playUntilDone(Sounds.PowerUp)
